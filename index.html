@@ -3,25 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment Grading System</title>
+    <title>Assignment Grading System - Home</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Assignment Grading System</h1>
-    <form action="/grade" method="post">
-        <label for="student_name">Student Name:</label>
-        <input type="text" id="student_name" name="student_name" required>
-        <label for="assignment_name">Assignment Name:</label>
-        <input type="text" id="assignment_name" name="assignment_name" required>
-        <label for="grade">Grade:</label>
-        <input type="number" id="grade" name="grade" min="0" max="100" required>
-        <input type="submit" value="Submit">
-    </form>
-    <div class="assignments">
-        <h2>Assignments</h2>
-        <ul id="assignment_list">
-            <!-- Assignment list will be populated dynamically -->
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/grade">Grade Assignment</a></li>
+            <li><a href="/about">About</a></li>
         </ul>
-    </div>
+    </nav>
+    <h1>Assignment Grading System</h1>
+    <!-- Content specific to the home page -->
 </body>
 </html>
